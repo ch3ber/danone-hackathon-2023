@@ -1,7 +1,8 @@
 # Danone Challenge - Frontend Hackathon Project
 
-![Danone Challenge](/docs/Danone-Productos-Eco.mp4)
-![Danone Challenge](/docs/Danone-Productos-Eco-mobile.mp4)
+![Danone Challenge](/docs/Danone-Productos-Eco.png)
+![Danone Challenge](/docs/Danone-Productos-Eco-2.png)
+![Danone Challenge](/docs/Danone-Productos-Eco-mobile.png)
 
 ## Descripción del proyecto
 
