@@ -4,15 +4,19 @@ import Link from 'next/link'
 export default function Footer () {
   return (
     <footer className="bg-brand-950 text-white p-14">
-      <div className="max-w-screen-2xl flex justify-center items-start gap-52">
+      <div className="max-w-screen-2xl flex flex-col md:flex-row justify-center items-start gap-20 md:gap-52">
         <section>
           <h6 className="text-h6 font-bold">Another pages</h6>
-          <ul className="mt-5 uppercase space-y-2">
-            <li className='hover:opacity-50 transition-opacity'>News</li>
-            <li className='hover:opacity-50 transition-opacity'>Products</li>
-            <li className='hover:opacity-50 transition-opacity'>Contact</li>
-            <li className='hover:opacity-50 transition-opacity'>Help</li>
-          </ul>
+          <div className='flex underline justify-between items-start gap-20 pl-5'>
+            <ul className="mt-5 space-y-2 list-disc">
+              <li className='hover:opacity-50 transition-opacity'>News</li>
+              <li className='hover:opacity-50 transition-opacity'>Products</li>
+            </ul>
+            <ul className="mt-5 underline space-y-2 list-disc">
+              <li className='hover:opacity-50 transition-opacity'>Contact</li>
+              <li className='hover:opacity-50 transition-opacity'>Help</li>
+            </ul>
+          </div>
         </section>
         <section>
           <h6 className="text-h6 font-bold">Social network</h6>
