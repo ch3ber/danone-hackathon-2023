@@ -1,34 +1,73 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Danone Challenge - Frontend Hackathon Project
 
-## Getting Started
+![Danone Challenge](/docs/Danone-Productos-Eco.mp4)
+![Danone Challenge](/docs/Danone-Productos-Eco-mobile.mp4)
 
-First, run the development server:
+## Descripción del proyecto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Este proyecto es parte de la Hackathon - Frontend Danone Challenge, que se llevará a cabo del 17 al 19 de Junio de 2023. El objetivo principal es desarrollar una landing page con un CMS conectado a una API en GraphQL. La página de inicio y la página de productos permitirán previsualizar los productos provenientes del CMS headless, con un diseño responsivo.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologías utilizadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+El proyecto se desarrollará utilizando las siguientes tecnologías:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- TypeScript: Un superset de JavaScript que proporciona tipado estático para una mayor seguridad y mejor experiencia de desarrollo.
+- Jest: Un framework de pruebas unitarias para JavaScript y TypeScript.
+- Testing Library: Una suite de herramientas para realizar pruebas de componentes de manera más accesible y orientada al usuario.
+- GitHub Actions: Un servicio de integración continua que automatiza tareas y flujos de trabajo en GitHub.
+- Next.js: Un framework de React para la creación de aplicaciones web rápidas y escalables.
+- Apollo Client: Una biblioteca de administración de estado y consumo de datos para aplicaciones GraphQL.
+- GraphQL: Un lenguaje de consulta y manipulación de datos para APIs.
+- CMS - Contentful: Un sistema de gestión de contenido basado en la nube que permite la creación y administración de contenido.
+- ESLint: Una herramienta de análisis de código estático para identificar y reportar patrones problemáticos en el código JavaScript y TypeScript.
+- Tailwind CSS: Un framework CSS utilitario que permite construir rápidamente interfaces personalizadas.
+- Husky: Una herramienta que facilita la configuración de ganchos (hooks) de Git para ejecutar scripts en determinados eventos.
 
-## Learn More
+## Configuración
 
-To learn more about Next.js, take a look at the following resources:
+Siga los pasos a continuación para configurar el proyecto en su entorno local:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clonar el repositorio: `git clone https://github.com/ch3ber/danone-hackathon-2023.git`
+2. Ingresar al directorio del proyecto: `cd repodanone-hackathon-2023`
+3. Instalar las dependencias: `npm install` o `npm i`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Ejecución del proyecto
 
-## Deploy on Vercel
+Para ejecutar el proyecto en modo de desarrollo, siga los siguientes pasos:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Ingresar al directorio del proyecto: `cd repodanone-hackathon-2023`
+2. Ejecutar el siguiente comando: `npm run dev`
+3. Abra su navegador y acceda a `http://localhost:3000`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Pruebas
+
+Para ejecutar las pruebas unitarias, siga los siguientes pasos:
+
+1. Ingresar al directorio del proyecto: `cd repodanone-hackathon-2023`
+2. Ejecutar el siguiente comando: `npm run test` o `npm run test:watch` para ejecutar las pruebas cada vez que el código cambie
+
+Nota: con `npm run test -- --coverage` se recolecta la cobertura de las pruebas en el código
+
+## Contribución
+
+Si desea contribuir a este proyecto, siga los siguientes pasos:
+
+1. Fork del repositorio
+2. Clonar el repositorio forked: `git clone https://github.com/ch3ber/danone-hackathon-2023.git`
+3. Crear una rama para la nueva funcionalidad: `git checkout -b feature/nueva-funcionalidad`
+4. Realizar los cambios necesarios y realizar los commits: `git commit -m "Agregar nueva funcionalidad"`
+5. Push los cambios a su repositorio forked: `git push origin feature/nueva-funcionalidad`
+6. Abrir un pull request en el repositorio original
+
+## Recursos adicionales
+
+- [Documentación de Next.js](https://nextjs.org/docs)
+- [Documentación de Apollo Client](https://www.apollographql.com/docs/react/)
+- [Documentación de GraphQL](https://graphql.org/learn/)
+- [Documentación de Contentful](https://www.contentful.com/developers/docs/)
+- [Documentación de Tailwind CSS](https://tailwindcss.com/docs)
+- [Documentación de Husky](https://typicode.github.io/husky/#/)
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulte el archivo `LICENSE` para obtener más información.
