@@ -15,7 +15,7 @@ export default function Home () {
         <section className='m-20 text-center'>
           <h4 className="text-h4 font-bold">Keep track of your daily calorie limit!</h4>
           <p className='mt-5 mb-10'>Tell us your maximum daily calorie intake and we will recommend the products that best suit your goals!</p>
-          <Button type='outline'>
+          <Button type='outline' size='middle'>
             <Link href={'/'}>Star now</Link>
           </Button>
         </section>
