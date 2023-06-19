@@ -1,7 +1,8 @@
 # Danone Challenge - Frontend Hackathon Project
 
-![Danone Challenge](/docs/Danone-Productos-Eco.mp4)
-![Danone Challenge](/docs/Danone-Productos-Eco-mobile.mp4)
+![Danone Challenge](/docs/Danone-Productos-Eco.png)
+![Danone Challenge](/docs/Danone-Productos-Eco-2.png)
+![Danone Challenge](/docs/Danone-Productos-Eco-mobile.png)
 
 ## Descripción del proyecto
 
@@ -48,6 +49,19 @@ Para ejecutar las pruebas unitarias, siga los siguientes pasos:
 
 Nota: con `npm run test -- --coverage` se recolecta la cobertura de las pruebas en el código
 
+## CI/CD
+El proyecto cuenta con integración y entrega continua (CI/CD) utilizando GitHub Actions. A continuación, se describen los workflows configurados:
+
+### Workflow: Build Next.js Site
+Este workflow se ejecuta cuando se realiza un push a la rama "dev" o cuando se ejecuta manualmente desde la pestaña de Actions.
+
+Se encarga de construir el sitio Next.js en una máquina virtual con Ubuntu. Primero, se realiza una clonación del repositorio. Luego, se instalan las dependencias utilizando npm ci. A continuación, se configura la versión de Node.js y se ejecuta el comando npm run build para generar la compilación del proyecto.
+
+### Workflow: Testing
+Este workflow se ejecuta cuando se realiza un push a la rama "dev".
+
+Se encarga de ejecutar las pruebas unitarias en una máquina virtual con Ubuntu. Se realiza una clonación del repositorio y se instalan las dependencias utilizando npm ci. Luego, se ejecuta el comando npm run test para ejecutar las pruebas definidas en el proyecto.
+
 ## Contribución
 
 Si desea contribuir a este proyecto, siga los siguientes pasos:
@@ -67,6 +81,7 @@ Si desea contribuir a este proyecto, siga los siguientes pasos:
 - [Documentación de Contentful](https://www.contentful.com/developers/docs/)
 - [Documentación de Tailwind CSS](https://tailwindcss.com/docs)
 - [Documentación de Husky](https://typicode.github.io/husky/#/)
+- [Documentación de GitHub Actions](https://docs.github.com/en/actions)
 
 ## Licencia
 
